@@ -1,0 +1,21 @@
+/* Color and Background-Color */
+p {
+    color: #ff0000ff;
+    background-color: #ff0000ff;
+    color: rgba(255, 0, 0, 1.0);
+    color: hsla(360, 100%, 50%, 1.0);
+}
+
+/* Typography Basics and Text-Align */
+p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Image Height and Width - to prevent drastic shift of other page contents, always set image height and width */
+img {
+    height: auto;
+    width: 500px;
+}

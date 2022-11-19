@@ -1,40 +1,40 @@
 /* Universal Selector */
-/* * {
+* {
     color: purple;
-} */
+}
 
 /* Type Selector */
-/* div {
+div {
     color: white;
-} */
+}
 
 /* Class Selector */
-/* .alert-text {
+.alert-text {
     color: red;
-} */
+}
 
 /* ID Selector */
-/* #title {
+#title {
     background-color: red;
-} */
+}
 
 /* Grouping Selector */
-/* .read,
+.read,
 .unread {
     color: white;
     background-color: black;
-} */
+}
 
 /* Chaining Selectors (except Types) */
-/* .subsection.header {
+.subsection.header {
     color: red;
 }
 
 .subsection#preview {
     color: blue;
-} */
+}
 
 /* Descendant Combinator */
 .ancestor .contents {
-    
+    background-color: green;
 }
