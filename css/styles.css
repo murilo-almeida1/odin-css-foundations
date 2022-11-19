@@ -1,0 +1,40 @@
+/* Universal Selector */
+/* * {
+    color: purple;
+} */
+
+/* Type Selector */
+/* div {
+    color: white;
+} */
+
+/* Class Selector */
+/* .alert-text {
+    color: red;
+} */
+
+/* ID Selector */
+/* #title {
+    background-color: red;
+} */
+
+/* Grouping Selector */
+/* .read,
+.unread {
+    color: white;
+    background-color: black;
+} */
+
+/* Chaining Selectors (except Types) */
+/* .subsection.header {
+    color: red;
+}
+
+.subsection#preview {
+    color: blue;
+} */
+
+/* Descendant Combinator */
+.ancestor .contents {
+    
+}
