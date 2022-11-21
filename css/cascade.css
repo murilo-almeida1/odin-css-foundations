@@ -1,0 +1,47 @@
+/* Inline styles have the highest specificity compared to selectors */
+
+/* With no higher specificity, the one with more selectors wins - red */
+.subsection {
+    color: blue;
+}
+
+.main .list {
+    color: red;
+}
+
+/* ID beats class, class beats types - blue */
+#subsection {
+    color: blue;
+}
+
+.main .list {
+    color: red;
+}
+
+/* red wins (with yellow background) */
+#subsection .list {
+    background-color: yellow;
+    color: blue;
+}
+
+#subsection .main .list {
+    color: red;
+}
+
+/* Inheritance - Typography based properties (color, font-size, font-family) are mostly inherited. Direct targeting beats inheritance. */
+#parent {
+    color: red;
+}
+
+.child {
+    color: blue;
+}
+
+/* Rule order */
+.alert {
+    color: red;
+}
+
+.warning {
+    color: yellow;
+}
