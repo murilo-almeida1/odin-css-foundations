@@ -1,4 +1,7 @@
-/* Inline styles have the highest specificity compared to selectors */
+/* 1. Importance: transition > !important > animation > normal
+2. Origin: website > user > browser - reversed for !important
+3. Specificity: inline > layer > id > class | attribute | pseudo-class > type | pseudo-element
+4. Position: last > first */
 
 /* With no higher specificity, the one with more selectors wins - red */
 .subsection {

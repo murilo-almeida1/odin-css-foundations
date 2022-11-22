@@ -4,9 +4,10 @@ p {
     background-color: #ff0000ff;
     color: rgba(255, 0, 0, 1.0);
     color: hsla(360, 100%, 50%, 1.0);
+    color: currentColor;
 }
 
-/* Typography Basics and Text-Align */
+/* Typography Basics and Text-Align - always include a generic font-family as a fallback */
 p {
     font-family:'Times New Roman', Times, serif;
     font-size: 22px;
